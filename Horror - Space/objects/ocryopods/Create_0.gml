@@ -1,0 +1,1 @@
+text = "Looks like the crew were forced out...";

@@ -1,0 +1,2 @@
+roomName = "";
+owner = noone;

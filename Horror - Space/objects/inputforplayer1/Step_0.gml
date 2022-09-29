@@ -1,0 +1,1 @@
+if(room == rm_ini) room_goto_next(); //if(actionButton) room_goto_next();
