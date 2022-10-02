@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oAquiredMessage",
-  "spriteId": null,
+  "name": "oBloodBrushes",
+  "spriteId": {
+    "name": "sBlood",
+    "path": "sprites/sBlood/sBlood.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

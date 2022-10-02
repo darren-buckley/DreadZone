@@ -21,8 +21,8 @@ if(state == aiState.enter){
 				image_speed = 0;
 				speed = 0;
 				image_index = 1;
-				timer = min(timer + 1, 30);
-				if(timer == 30){
+				timer = min(timer + 1, 15);
+				if(timer == 15){
 					timer = 0;
 					state = aiState.attack;
 				}
@@ -98,20 +98,20 @@ else if(state == aiState.attack) {
 			}
 		}
 		else {
-			timer = min(timer + 1, 20);
+			timer = min(timer + 1, 15);
 			
 			if(timer == 1) {
 				audio_play_sound(sndVictimAttack,1,false);
 			}
-			if(timer != 20) {
+			if(timer != 15) {
 				if(sprite_index != sVictimAttackU && sprite_index != sVictimAttackD){
-					hspeed = 4 * image_xscale;
+					hspeed = 9 * image_xscale;
 					
 				}
 				else {
 					
-					if(sprite_index == sVictimAttackU) vspeed = -4;
-					else vspeed = 4;
+					if(sprite_index == sVictimAttackU) vspeed = -9;
+					else vspeed = 9;
 				}
 			}
 			else {
@@ -120,7 +120,7 @@ else if(state == aiState.attack) {
 				hspeed = 0;
 				vspeed = 0;
 				image_index = 1;  
-				cd  = 20;
+				cd  = 15;
 				state = aiState.enter;
 			}
 		}

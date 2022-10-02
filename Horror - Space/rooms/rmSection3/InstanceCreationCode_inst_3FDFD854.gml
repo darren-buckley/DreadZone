@@ -1,0 +1,1 @@
+roomName = "main hallway";
