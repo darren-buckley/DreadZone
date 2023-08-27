@@ -1,9 +1,6 @@
 {
-  "extensionId": {
-    "name": "Input_Dog",
-    "path": "extensions/Input_Dog/Input_Dog.yy"
-  },
-  "resourceVersion": "1.0",
   "resourceType": "GMExtensionConfigSet",
-  "configurables": null
+  "configurables": null,
+  "extensionId": null,
+  "resourceVersion": "1.0"
 }

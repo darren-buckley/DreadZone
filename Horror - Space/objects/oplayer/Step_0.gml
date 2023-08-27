@@ -51,12 +51,12 @@
 			refil = false;
 			stamina-=0.2;
 			spd = run;
-			if(spd > 30.5) spd = 30.5;
+			if(spd > 3.5) spd = 3.5;
 			runwalk = 1;
 		}
 		else {
-			spd = 20;
-			if(spd > 20) spd = 20;
+			spd = 2;
+			if(spd > 2) spd = 2;
 			runwalk = 0;
 			if(stamina <= 0) {
 				wait = true;
@@ -72,7 +72,7 @@
 	else {
 		hsp = 0;
 		vsp = 0;
-		if(spd > 20) spd = 20;
+		if(spd > 2) spd = 2;
 		runwalk = 0;
 	}
 
